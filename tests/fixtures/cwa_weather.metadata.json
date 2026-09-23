@@ -1,0 +1,10 @@
+{
+  "dataset_id": "F-C0032-001",
+  "retrieved_at": "2026-09-23T11:51:43.304831+00:00",
+  "http_status": 200,
+  "source": "live CWA HTTPS response",
+  "sanitization": "credential members and echoed API keys redacted; no HTTP headers saved",
+  "sha256": "1235d181608be07e9f0b22f0a095e16afdaab5f2ca6e13c135370abdd45bf750",
+  "forecast_schema_verified": true,
+  "note": "Validated by the forecast parser."
+}

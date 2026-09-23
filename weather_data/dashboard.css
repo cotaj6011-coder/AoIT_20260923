@@ -1,0 +1,42 @@
+.stApp { background: #030712; color: #e5e7eb; }
+.stMainBlockContainer { max-width: none; padding: 0; }
+h1 { font-size: 1.8rem !important; letter-spacing: -.04em; }
+h2, h3 { letter-spacing: -.025em; }
+[data-testid="stHeader"] { display: none; }
+[data-testid="stVerticalBlockBorderWrapper"] { border-radius: 16px; }
+[data-testid="stMetric"] { background: rgba(17,24,39,.85); border: 1px solid #253047;
+  border-radius: 14px; padding: 14px 18px; }
+[data-testid="stMetricLabel"] { color: #94a3b8; }
+[data-testid="stMetricValue"] { color: #f8fafc; font-size: 1.8rem; }
+[data-testid="stExpander"] { background: #0b1220; border-radius: 14px; }
+.eyebrow { color: #38bdf8; font-size: 11px; letter-spacing: .22em; font-weight: 700; }
+.stCaption { color: #94a3b8; }
+.st-key-map_canvas { position: fixed; inset: 0; width: 100vw; height: 100dvh; z-index: 1; }
+.st-key-map_canvas iframe { width: 100% !important; height: 100dvh !important; border: 0; display: block; }
+.st-key-corner_summary, .st-key-corner_controls, .st-key-corner_details {
+  position: fixed; z-index: 10; background: rgba(17,24,39,.9);
+  border: 1px solid #334155; border-radius: 16px; padding: 14px;
+  box-shadow: 0 10px 32px #0006; backdrop-filter: blur(12px);
+}
+.st-key-corner_summary { top: 16px; left: 16px; width: 290px; max-height: 60dvh; overflow: auto; }
+.st-key-corner_controls { top: 16px; right: 16px; width: 300px; }
+.st-key-corner_details { bottom: 28px; left: 16px; width: min(480px, calc(100vw - 32px)); max-height: 40dvh; overflow: auto; }
+.st-key-corner_summary h1 { font-size: 1.4rem !important; padding: 0; }
+.st-key-corner_summary [data-testid="stMetric"] { padding: 5px 8px; background: transparent; border: 0; }
+.st-key-corner_summary [data-testid="stMetricValue"] { font-size: 1.4rem; }
+.st-key-corner_summary [data-testid="stVerticalBlock"], .st-key-corner_details [data-testid="stVerticalBlock"] { gap: .4rem; }
+/* Keep error/empty states above the map instead of silently covering them. */
+[data-testid="stAlert"] { position: relative; z-index: 20; }
+@media (max-width: 700px) {
+  .stMainBlockContainer { padding: 0; }
+  h1 { font-size: 1.45rem !important; }
+  [data-testid="stMetric"] { padding: 10px 12px; }
+  .st-key-corner_summary { top: 8px; left: 8px; width: calc(50vw - 12px); padding: 8px; max-height: 34dvh; }
+  .st-key-corner_controls { top: 8px; right: 8px; width: calc(50vw - 12px); padding: 8px; max-height: 34dvh; overflow: auto; }
+  .st-key-corner_summary h1 { font-size: 1rem !important; }
+  .st-key-corner_summary [data-testid="stHorizontalBlock"] { flex-wrap: nowrap; }
+  .st-key-corner_summary [data-testid="stColumn"] { min-width: 0; flex: 1 1 0; }
+  .st-key-corner_summary [data-testid="stMetricValue"] { font-size: 1rem; }
+  .st-key-corner_summary .eyebrow { font-size: 8px; }
+  .st-key-corner_details { bottom: 75px; left: 8px; width: calc(100vw - 16px); max-height: 32dvh; padding: 8px; }
+}

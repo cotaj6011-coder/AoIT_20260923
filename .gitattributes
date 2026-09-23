@@ -1,0 +1,2 @@
+# Preserve fixture byte hashes across Windows/Linux checkouts.
+tests/fixtures/*.json text eol=lf

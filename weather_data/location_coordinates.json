@@ -1,0 +1,139 @@
+{
+  "source": "https://hdps.cwa.gov.tw/static/state.html",
+  "retrieved_at": "2026-09-23T12:38:38.116266+00:00",
+  "purpose": "Static county display anchors, not forecast station measurements or geographic centroids.",
+  "locations": {
+    "南投縣": {
+      "latitude": 23.881325,
+      "longitude": 120.90805,
+      "station_id": "467650",
+      "station_name": "日月潭"
+    },
+    "嘉義市": {
+      "latitude": 23.495925,
+      "longitude": 120.432906,
+      "station_id": "467480",
+      "station_name": "嘉義"
+    },
+    "嘉義縣": {
+      "latitude": 23.455062,
+      "longitude": 120.331455,
+      "station_id": "C0M680",
+      "station_name": "太保"
+    },
+    "基隆市": {
+      "latitude": 25.133314,
+      "longitude": 121.740475,
+      "station_id": "466940",
+      "station_name": "基隆"
+    },
+    "宜蘭縣": {
+      "latitude": 24.763975,
+      "longitude": 121.756528,
+      "station_id": "467080",
+      "station_name": "宜蘭"
+    },
+    "屏東縣": {
+      "latitude": 22.003897,
+      "longitude": 120.746339,
+      "station_id": "467590",
+      "station_name": "恆春"
+    },
+    "彰化縣": {
+      "latitude": 23.873803,
+      "longitude": 120.581286,
+      "station_id": "467270",
+      "station_name": "田中"
+    },
+    "新北市": {
+      "latitude": 24.959207,
+      "longitude": 121.525196,
+      "station_id": "466881",
+      "station_name": "新北"
+    },
+    "新竹市": {
+      "latitude": 24.798681,
+      "longitude": 120.986942,
+      "station_id": "C0D660",
+      "station_name": "新竹市東區"
+    },
+    "新竹縣": {
+      "latitude": 24.828575,
+      "longitude": 121.01455,
+      "station_id": "467571",
+      "station_name": "新竹"
+    },
+    "桃園市": {
+      "latitude": 25.006725,
+      "longitude": 121.047492,
+      "station_id": "467050",
+      "station_name": "新屋"
+    },
+    "澎湖縣": {
+      "latitude": 23.565503,
+      "longitude": 119.563094,
+      "station_id": "467350",
+      "station_name": "澎湖"
+    },
+    "臺中市": {
+      "latitude": 24.145736,
+      "longitude": 120.684075,
+      "station_id": "467490",
+      "station_name": "臺中"
+    },
+    "臺北市": {
+      "latitude": 25.037658,
+      "longitude": 121.514853,
+      "station_id": "466920",
+      "station_name": "臺北"
+    },
+    "臺南市": {
+      "latitude": 22.99328,
+      "longitude": 120.20492,
+      "station_id": "467410",
+      "station_name": "臺南"
+    },
+    "臺東縣": {
+      "latitude": 22.752211,
+      "longitude": 121.154586,
+      "station_id": "467660",
+      "station_name": "臺東"
+    },
+    "花蓮縣": {
+      "latitude": 23.975128,
+      "longitude": 121.613275,
+      "station_id": "466990",
+      "station_name": "花蓮"
+    },
+    "苗栗縣": {
+      "latitude": 24.564569,
+      "longitude": 120.824575,
+      "station_id": "C0E750",
+      "station_name": "苗栗"
+    },
+    "連江縣": {
+      "latitude": 26.169467,
+      "longitude": 119.923158,
+      "station_id": "467990",
+      "station_name": "馬祖"
+    },
+    "金門縣": {
+      "latitude": 24.407306,
+      "longitude": 118.289281,
+      "station_id": "467110",
+      "station_name": "金門"
+    },
+    "雲林縣": {
+      "latitude": 23.720583,
+      "longitude": 120.541127,
+      "station_id": "C0K400",
+      "station_name": "斗六"
+    },
+    "高雄市": {
+      "latitude": 22.730432,
+      "longitude": 120.312516,
+      "station_id": "467441",
+      "station_name": "高雄"
+    }
+  }
+}

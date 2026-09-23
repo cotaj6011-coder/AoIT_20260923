@@ -1,0 +1,74 @@
+{
+  "$": [
+    "dict"
+  ],
+  "$[\"success\"]": [
+    "str"
+  ],
+  "$[\"result\"]": [
+    "dict"
+  ],
+  "$[\"result\"][\"resource_id\"]": [
+    "str"
+  ],
+  "$[\"result\"][\"fields\"]": [
+    "list"
+  ],
+  "$[\"result\"][\"fields\"][]": [
+    "dict"
+  ],
+  "$[\"result\"][\"fields\"][][\"id\"]": [
+    "str"
+  ],
+  "$[\"result\"][\"fields\"][][\"type\"]": [
+    "str"
+  ],
+  "$[\"records\"]": [
+    "dict"
+  ],
+  "$[\"records\"][\"datasetDescription\"]": [
+    "str"
+  ],
+  "$[\"records\"][\"location\"]": [
+    "list"
+  ],
+  "$[\"records\"][\"location\"][]": [
+    "dict"
+  ],
+  "$[\"records\"][\"location\"][][\"locationName\"]": [
+    "str"
+  ],
+  "$[\"records\"][\"location\"][][\"weatherElement\"]": [
+    "list"
+  ],
+  "$[\"records\"][\"location\"][][\"weatherElement\"][]": [
+    "dict"
+  ],
+  "$[\"records\"][\"location\"][][\"weatherElement\"][][\"elementName\"]": [
+    "str"
+  ],
+  "$[\"records\"][\"location\"][][\"weatherElement\"][][\"time\"]": [
+    "list"
+  ],
+  "$[\"records\"][\"location\"][][\"weatherElement\"][][\"time\"][]": [
+    "dict"
+  ],
+  "$[\"records\"][\"location\"][][\"weatherElement\"][][\"time\"][][\"startTime\"]": [
+    "str"
+  ],
+  "$[\"records\"][\"location\"][][\"weatherElement\"][][\"time\"][][\"endTime\"]": [
+    "str"
+  ],
+  "$[\"records\"][\"location\"][][\"weatherElement\"][][\"time\"][][\"parameter\"]": [
+    "dict"
+  ],
+  "$[\"records\"][\"location\"][][\"weatherElement\"][][\"time\"][][\"parameter\"][\"parameterName\"]": [
+    "str"
+  ],
+  "$[\"records\"][\"location\"][][\"weatherElement\"][][\"time\"][][\"parameter\"][\"parameterValue\"]": [
+    "str"
+  ],
+  "$[\"records\"][\"location\"][][\"weatherElement\"][][\"time\"][][\"parameter\"][\"parameterUnit\"]": [
+    "str"
+  ]
+}
